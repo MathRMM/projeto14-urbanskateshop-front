@@ -79,11 +79,11 @@ export default function CarouselHome({setProducts}) {
             </div>
             <div className="slide" onClick={() => getProduct("tenis")}>
                 <img src={jan_korpriva} className="slide" alt="" />
-                <button>Tenis para todos os estilos e manobras.</button>
+                
             </div>
             <div className="slide" onClick={() => getProduct("shape")}>
                 <img src={Raphazito} className="slide" alt="" />
-                <button>Escolha o seu shape para botar pressão nos games.</button>
+                
             </div>
         </Carousel>
     );
